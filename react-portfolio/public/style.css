@@ -2,6 +2,7 @@
   --black: #0F1D2B;
   --blue: #17456B;
   --aqua: #419FB7;
+  --still: #BFDBEF;
   --white: #F5F6EE;
   --yellow: #FFB000;
   --font-size: 1.3rem;
@@ -34,3 +35,34 @@ h1, h2, h3 {
 a {
   color:var(--aqua)
 }
+
+a:hover {
+  color: var(--still);
+  text-decoration: none;
+}
+
+/* Intro Styles */
+#intro {
+  padding-bottom: 10rem;
+}
+
+#intro p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#intro .name {
+  font-family: var(--mono);
+}
+
+.name span {
+  font-family: var(--sans);
+  font-size: 4rem;
+  color: var(--yellow);
+  display: block;
+}
+
+#intro h2 {
+  font-size: 4rem;
+}
+
