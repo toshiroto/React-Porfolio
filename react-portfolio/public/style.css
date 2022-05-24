@@ -1,0 +1,36 @@
+:root {
+  --black: #0F1D2B;
+  --blue: #17456B;
+  --aqua: #419FB7;
+  --white: #F5F6EE;
+  --yellow: #FFB000;
+  --font-size: 1.3rem;
+  --mono: "Oxygen mono",
+monospace;
+  --sans: Oxygen, sans-serif;
+}
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--sans);
+  background-color: var(--black);
+  color: var(--white);
+  font-size: var(--font-size);
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+a {
+  color:var(--aqua)
+}
