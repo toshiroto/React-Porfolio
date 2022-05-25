@@ -66,3 +66,17 @@ a:hover {
   font-size: 4rem;
 }
 
+/* Contact Section */
+
+#contact {
+  width: 400px;
+  background-color: var(--blue);
+  text-align: center;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+#contact h3 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+

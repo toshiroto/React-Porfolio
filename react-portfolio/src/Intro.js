@@ -3,7 +3,7 @@ import React from "react";
 const Intro = () => {
   return (
 
-  <div id="intro">
+  <section id="intro">
       <p className="name">
         Hello, my name is
         <span>Carlos.</span>
@@ -17,7 +17,7 @@ const Intro = () => {
       <p>Currently I am working on a web-app directory to promote fair trade for{" "}
         <a href="http://envia.org">Fundación En Vía</a>
       </p>
-    </div>
+    </section>
   );
 };
 
