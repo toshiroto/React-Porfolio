@@ -79,4 +79,64 @@ a:hover {
 #contact h3 {
   padding-bottom: 0;
   margin-bottom: 0;
+}
 
+nav h1 a {
+  font-family: var(--sans);
+}
+
+nav li:first-child {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+nav [class*="fa-"]{
+  font-size: 150%;
+  color: var(--aqua)
+}
+nav [class*="fa-"]{
+  font-size: 100%;
+  color: var(--aqua)
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  display: block;
+}
+
+nav a:hover {
+  color: var(--still)
+}
+
+.button {
+  background-color: var(--still);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: var(--aqua)
+}
+
+@media (min-width: 850px){
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+  }
+}
