@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Intro from "./Intro";
 import Contact from "./Contact";
-
+import Footer from "./Footer";
 
 
 const App = () => {
@@ -11,6 +11,7 @@ const App = () => {
       <Navbar/>
       <Intro />
       <Contact />
+      <Footer />
     </div>
   )
 }
