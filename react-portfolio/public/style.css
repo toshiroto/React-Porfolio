@@ -42,8 +42,11 @@ a:hover {
 }
 
 /* Intro Styles */
+
 #intro {
-  padding-bottom: 10rem;
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #intro p {
@@ -69,7 +72,6 @@ a:hover {
 /* Contact Section */
 
 #contact {
-  width: 400px;
   background-color: var(--blue);
   text-align: center;
   margin: 0 auto;
@@ -80,6 +82,11 @@ a:hover {
   padding-bottom: 0;
   margin-bottom: 0;
 }
+
+#contact p:last-child {
+  margin-top: 3rem;
+}
+
 
 /* Navbar */
 nav {
@@ -101,7 +108,7 @@ nav [class*="fa-"]{
   font-size: 150%;
   color: var(--aqua)
 }
-nav [class*="fa-"]{
+nav h1 [class*="fa-"]{
   font-size: 100%;
   color: var(--aqua)
 }
@@ -128,12 +135,14 @@ nav a:hover {
 
 .button {
   background-color: var(--still);
+  color: var(--aqua);
   padding: 0.5rem;
   border-radius: 5px;
 }
 
 .button:hover {
-  color: var(--aqua)
+  color: var(--still);
+  background-color: var(--aqua)
 }
 
 /* Footer */
@@ -144,6 +153,7 @@ footer {
 
 footer ul {
   list-style-type: none;
+  align-items: center;
   padding: 0;
   margin: 2rem 0;
   display: flex;
