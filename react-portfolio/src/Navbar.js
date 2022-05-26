@@ -8,8 +8,10 @@ const Navbar = () => {
       <ul>
         <li>
           <h1>
-            <span className="fa-solid fa-code" aria-hidden="true"></span>
-            <span>Carlos Topete</span>
+            <a href="index.html">
+              <span className="fa-solid fa-code" aria-hidden="true"></span>
+              <span>Carlos Topete</span>
+            </a>
           </h1>
         </li>
         <li>

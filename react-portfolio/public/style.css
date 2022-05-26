@@ -81,6 +81,13 @@ a:hover {
   margin-bottom: 0;
 }
 
+/* Navbar */
+nav {
+  font-size: var(--mono);
+  font-size: 80%;
+  padding: 1rem;
+}
+
 nav h1 a {
   font-family: var(--sans);
 }
