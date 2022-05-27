@@ -7,7 +7,7 @@ const Contact = () => {
       <p>I'm always interested in hearing about new opportunities</p>
       <a href="mailto:chtopete@gmail.com">Email me</a>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

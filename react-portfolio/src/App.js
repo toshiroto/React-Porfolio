@@ -4,16 +4,15 @@ import Intro from "./Intro";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
-
 const App = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <Intro />
       <Contact />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default App;
