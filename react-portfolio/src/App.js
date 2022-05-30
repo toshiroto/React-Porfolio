@@ -1,14 +1,16 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Intro from "./Intro";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import Navbar from "./components/Navbar";
+import Intro from "./components/Intro";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Projects from "./components/Projects"
 
 const App = () => {
   return (
     <div>
       <Navbar />
       <Intro />
+      <Projects />
       <Contact />
       <Footer />
     </div>

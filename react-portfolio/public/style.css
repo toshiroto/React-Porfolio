@@ -1,21 +1,21 @@
 :root {
-  --black: #0F1D2B;
-  --blue: #17456B;
-  --aqua: #419FB7;
-  --still: #BFDBEF;
-  --white: #F5F6EE;
-  --yellow: #FFB000;
+  --black: #0f1d2b;
+  --blue: #17456b;
+  --aqua: #419fb7;
+  --still: #bfdbef;
+  --white: #f5f6ee;
+  --yellow: #ffb000;
   --font-size: 1.3rem;
   --mono: "Oxygen mono", monospace;
   --sans: Oxygen, sans-serif;
 }
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
@@ -27,12 +27,14 @@ body {
   font-size: var(--font-size);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
 }
 
 a {
-  color:var(--aqua)
+  color: var(--aqua);
 }
 
 a:hover {
@@ -42,7 +44,6 @@ a:hover {
 img {
   width: 100%;
 }
-
 
 /* Intro Styles */
 
@@ -90,7 +91,6 @@ img {
   margin-top: 3rem;
 }
 
-
 /* Navbar */
 nav {
   font-size: var(--mono);
@@ -107,13 +107,13 @@ nav li:first-child {
   text-align: center;
 }
 
-nav [class*="fa-"]{
+nav [class*="fa-"] {
   font-size: 150%;
-  color: var(--aqua)
+  color: var(--aqua);
 }
-nav h1 [class*="fa-"]{
+nav h1 [class*="fa-"] {
   font-size: 100%;
-  color: var(--aqua)
+  color: var(--aqua);
 }
 nav ul {
   list-style-type: none;
@@ -133,7 +133,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--still)
+  color: var(--still);
 }
 
 .button {
@@ -147,9 +147,54 @@ nav a:hover {
 
 .button:hover {
   color: var(--still);
-  background-color: var(--aqua)
+  background-color: var(--aqua);
 }
 
+/* Card */
+
+.card {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0212);
+  background: white;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  position: relative;
+  transition: all 0.4s;
+}
+
+.card--image {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0212);
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.4s;
+}
+.card:hover img {
+  margin-top: 30px;
+}
+.card:hover {
+  width: 160px;
+}
+
+.card--details::after {
+  letter-spacing: 0.2em;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  color: var(--black);
+  font-size: 0.6em;
+}
+
+.card--list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
 /* Footer */
 footer {
   text-align: center;
@@ -167,7 +212,7 @@ footer ul {
   font-size: 3rem;
 }
 
-@media (min-width: 850px){
+@media (min-width: 850px) {
   nav {
     max-width: 1200px;
     margin: 0 auto;
