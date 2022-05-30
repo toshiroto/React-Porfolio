@@ -7,13 +7,11 @@ const Card = (props) => {
         <img src={`../images/${props.coverImg}`} alt={props.title} />
       </div>
       <div className="card--details">
-        <h3>{props.title}</h3>
-        <p>
-          <span>props.description</span>
-        </p>
+          <h3>{props.title}</h3>
+        <p>{props.description}</p>
       </div>
     </div>
   );
-}
+};
 
 export default Card;

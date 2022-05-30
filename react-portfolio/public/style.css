@@ -153,40 +153,38 @@ nav a:hover {
 /* Card */
 
 .card {
-  width: 150px;
-  height: 150px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0212);
-  background: white;
-  display: flex;
-  border-radius: 20px;
-  justify-content: center;
+  width: 300px;
+  background: rgb(0, 87, 128);
   position: relative;
-  transition: all 0.4s;
-}
-
-.card--image {
-  width: 150px;
-  height: 150px;
   border-radius: 20px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0212);
   cursor: pointer;
-  z-index: 10;
-  transition: all 0.4s;
-}
-.card:hover img {
-  margin-top: 30px;
-}
-.card:hover {
-  width: 160px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.123);
 }
 
-.card--details::after {
-  letter-spacing: 0.2em;
+.card--details {
   position: absolute;
-  bottom: 15px;
-  left: 20px;
-  color: var(--black);
-  font-size: 0.6em;
+  width: 100%;
+  bottom: 0;
+  height: 50px;
+  padding: 0.4em 1.5em;
+  font-size: 14px;
+  background: var(--black);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  transform: scale(0.9);
+  color: white;
+  border: 1px solid var(--black);
+  box-shadow: 0, 0, 20px rgba(0, 0, 0, 0.144);
+  overflow: hidden;
+  transition: all .4s;
+}
+
+.card--details p {
+  font-size: 0.8em;
+}
+
+.card--details:hover {
+  height: 130px;
 }
 
 .card--list {
