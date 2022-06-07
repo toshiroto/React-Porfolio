@@ -19,4 +19,10 @@ export default [
     description: "A web app to track and organize your favorite movies",
     coverImg: "watch_list.png",
   },
+  {
+    id: 4,
+    title: "Note Keep",
+    description: "A clone of google Note Keep",
+    coverImg: "Keep.png",
+  },
 ];
