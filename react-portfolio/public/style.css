@@ -5,6 +5,7 @@
   --still: #bfdbef;
   --white: #f5f6ee;
   --yellow: #ffb000;
+  --grey: #A6998F;
   --font-size: 1.3rem;
   --mono: "Oxygen mono", monospace;
   --sans: Oxygen, sans-serif;
@@ -188,6 +189,13 @@ nav a:hover {
   border-radius: 15px;
 }
 
+.card .card--title {
+  font-size: 1rem;
+  color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .card:hover {
   height: 300px;
 }
@@ -195,7 +203,7 @@ nav a:hover {
 .card .card--image {
   position: relative;
   width: 280px;
-  height: 215px;
+  height: 144.2px;
   top: -15%;
   left: -6%;
   box-shadow: 0 5px 20px rgba(0,0,0,0.2);
