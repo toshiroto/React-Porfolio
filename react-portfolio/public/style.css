@@ -176,7 +176,7 @@ nav a:hover {
 /* Card */
 .card {
   max-width: 280px;
-  height: 215px;
+  height: 200px;
   background-color: var(--white);
   margin: 30px 10px;
   padding: 20px 15px;
@@ -196,8 +196,8 @@ nav a:hover {
   position: relative;
   width: 280px;
   height: 215px;
-  top: -10%;
-  left: -5%;
+  top: -15%;
+  left: -6%;
   box-shadow: 0 5px 20px rgba(0,0,0,0.2);
   z-index: 1;
   border-radius: 15px;
