@@ -162,22 +162,24 @@ nav a:hover {
   margin: 0 auto;
 }
 
+#projects .row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 1%;
+}
+
 #pojects h2 {
   font-size: 2.5rem;
   margin-bottom: calc(2.5rem * 1.5);
 }
 
-.row {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  gap: 4%;
-}
 
 /* Card */
+
 .card {
   max-width: 280px;
-  height: 200px;
+  height: 230px;
   background-color: var(--white);
   margin: 30px 10px;
   padding: 20px 15px;
@@ -226,8 +228,10 @@ nav a:hover {
 .card .card--content .devicons {
   color: var(--grey);
   height: 30px;
-  width: 30px;
   display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2%;
 }
 
 
