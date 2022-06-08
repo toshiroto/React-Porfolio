@@ -134,7 +134,7 @@ nav ul {
 nav a {
   color: var(--white);
   text-decoration: none;
-  display: block;
+
 }
 
 nav a:hover {
