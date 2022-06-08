@@ -223,6 +223,12 @@ nav a:hover {
   opacity: 0;
   transition: 0.4s ease-in-out;
 }
+.card .card--content .devicons {
+  color: var(--grey);
+  height: 30px;
+  width: 30px;
+  display: flex;
+}
 
 
 .card .card--content p {

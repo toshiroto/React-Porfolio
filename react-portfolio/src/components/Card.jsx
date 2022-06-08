@@ -11,6 +11,14 @@ const Card = (props) => {
       </div>
       <div className="card--content">
         <p>{props.description}</p>
+        <div className="devicons">
+          <i className={props.program1} />
+          <i className={props.program2} />
+          <i className={props.program3} />
+          <i className={props.program4} />
+          <i className={props.program5} />
+          <i className={props.github} />
+        </div>
       </div>
     </div>
   );
