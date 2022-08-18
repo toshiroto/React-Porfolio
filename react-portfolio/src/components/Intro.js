@@ -4,7 +4,7 @@ const Intro = () => {
   return (
     <section id="intro">
       <p className="name">
-        Hello, my name is
+        Hi, my name is
         <span>Carlos</span>
       </p>
       <h2>Front-end Developer</h2>
